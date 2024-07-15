@@ -1,7 +1,5 @@
 package bad;
 
-import util.Notifier;
-
 public class WhatsAppAndFacebookNotifier extends BadNotifier {
     public WhatsAppAndFacebookNotifier(String username) {
         super(username);

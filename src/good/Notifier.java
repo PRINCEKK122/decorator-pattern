@@ -1,10 +1,11 @@
-package util;
+package good;
 
+import good.INotifier;
 import util.DatabaseService;
 
-public class Notifier {
+public class Notifier implements INotifier {
     private final String username;
-    private final DatabaseService databaseService;
+    protected final DatabaseService databaseService;
 
     public Notifier(String username) {
         this.username = username;
